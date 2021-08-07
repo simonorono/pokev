@@ -1,8 +1,11 @@
 import Index from './pages/Index.vue'
 
-export const routes = [
+export default [
   {
     path: '/',
-    component: Index
+    component: Index,
+    meta: {
+      title: 'PokéV | pokev.mcbodev.com'
+    }
   }
 ]
