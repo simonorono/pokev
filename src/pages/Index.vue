@@ -1,13 +1,15 @@
 <template>
-  <Index />
+  <Template>
+
+  </Template>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue"
-import Index from './pages/Index.vue'
+import Template from './Template.vue'
 
 export default defineComponent({
-  name: "App",
-  components: { Index },
+  name: "Index",
+  components: { Template }
 })
 </script>
